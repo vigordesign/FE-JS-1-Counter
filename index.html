@@ -1,6 +1,9 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Mooli&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="main">
@@ -8,8 +11,10 @@
                 <h1>Row Counter For Mary!</h1>
             </div>
             <div id="left">
-                <h2>Row Count</h2>
-                <h2 id="count-el">0</h2>
+                <div id="rowCount">
+                    <h2>Row Count</h2>
+                    <h2 id="count-el">0</h2>
+                </div>
             </div>
             <div id="middle">
                 <button id="increment-btn" onclick="increment()">Add Row</button>

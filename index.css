@@ -1,9 +1,11 @@
 body {
     background-image: url("karen-penroz-06ZTGDcAQFs-unsplash.jpg");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     font-weight: bold;
     text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    /* font-family: 'Mooli', sans-serif; */
 }
 
 #main {
@@ -32,6 +34,16 @@ body {
 #left {
     grid-column-start: 1;
     grid-column-end: 3;
+    align-items: center;
+}
+
+#rowCount {
+    background-color: #bfb3a8;
+    border-radius: 10px;
+    color: #012b47;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 15px;
 }
 
 #middle {
@@ -51,8 +63,9 @@ h1 {
     margin-bottom: 50px;
     padding: 15px 10px;
     font-size: 26px;
-    background-color: lightblue;
-    border-radius: 25px;
+    background-color: #012b47;
+    border-radius: 10px;
+    color: #fff;
 }
 
 h2 {
@@ -68,21 +81,33 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
     margin-bottom: 5px;
-    border-radius: 50px;
-    height: 100px;
-    width: 100px;
+    border-radius: 100px;
+    height: 110px;
+    width: 110px;
 }
 
 #increment-btn {
-    background: #4056F4;
+    background: #004263;
     grid-column-start: 3;
+    border: solid 1px #000;
+}
 
+#increment-btn:hover {
+    background-color: #04618f;
+    border: solid 1px #fff;
+    color: #fff;
 }
 
 #save-btn {
-    background: #CE2D4F;
+    background: #e48400;
     grid-column-start: 4;
+    border: solid 1.5px #000;
+}
+
+#save-btn:hover {
+    background-color: #e69729;
+    border: solid 1.5px #fff;
+    color: #fff;
 }
 
